@@ -1,0 +1,41 @@
+:root {
+    --blue: #52a5f7;
+    --white: #ffffff;
+    --purple: #ad8fff;
+    --light-gray: #dedede;
+    --black: black;
+    --light-blue: #61dafb;
+    --opacity: #f5f7fa51;
+}
+
+.games-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.game-card {
+    width: 25%;
+    height: 450px;
+    cursor: pointer;
+    border: none;
+    margin: 30px;
+    background: linear-gradient(135deg, var(--blue), var(--purple));
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px #bebebe;
+    animation: game-card;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2000ms;
+}
+
+@media screen and (max-width: 600px) {
+    .games-container {
+        flex-direction: column;
+    }
+
+    .game-card {
+        width: 90%;
+        height: 500px;
+    }
+}

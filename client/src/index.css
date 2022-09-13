@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --purple: #752e91;
+    --dark-gray: #333;
+    --greenyellow: greenyellow;
+    --green: green;
+    --light-gray: #dedede;
+    --black: black;
+    --light-blue: #61dafb;
+}
+
+@font-face {
+    font-family: cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+}
+
+h1, h2, h3, h4, h5, h6, p, .link, .navbar-link{
+    text-transform: capitalize;
+    font-family: cursive;
+}

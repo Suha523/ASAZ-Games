@@ -1,0 +1,80 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --purple: #752e91;
+    --light-gray: #dedede;
+    --black: black;
+    --light-blue: #61dafb;
+    --opacity: #f5f7fa51;
+}
+.body {
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, var(--blue), var(--purple));
+}
+.container {
+    width: 50%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background-color: var(--opacity);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.registerInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.input-box {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    font-weight: 500;
+}
+
+#register {
+    padding: 5px;
+    height: 30px;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-top: 0;
+        flex: none;
+        width: 70%;
+        height: 60%;
+    }
+
+    .registerInfo {
+        padding: 10px;
+    }
+
+    .container .title {
+        font-size: 20px;
+    }
+
+    .input-box {
+        height: 30px;
+    }
+
+    .container .title {
+        font-weight: 100;
+    }
+}

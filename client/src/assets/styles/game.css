@@ -1,0 +1,20 @@
+#ad8fff:root {
+    --blue: #52a5f7;
+    --white: #ffffff;
+    --purple: #ad8fff;
+    --light-gray: #dedede;
+    --black: black;
+    --light-blue: #61dafb;
+    --opacity: #f5f7fa51;
+}
+.game-container {
+    background: linear-gradient(135deg, #52a5f7, #ad8fff);
+    margin: 0;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+    align-items: center;
+}

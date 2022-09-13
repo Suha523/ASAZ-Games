@@ -1,0 +1,29 @@
+.room {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.inputs {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.inputs input,
+.inputs button {
+    height: 30px;
+    width: 100%;
+    padding: 2px;
+    margin: 5px;
+}
+
+.join-btn {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
